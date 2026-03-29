@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loïc Frémond</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FAFAF7;
+    --text: #1a1a1a;
+    --text-secondary: #5c5c5c;
+    --accent: #2c2c2c;
+    --link: #1a1a1a;
+    --link-hover: #6b4c3b;
+    --border: #d4d0c8;
+    --max-width: 620px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Newsreader', Georgia, serif;
+    font-weight: 400;
+    color: var(--text);
+    background-color: var(--bg);
+    line-height: 1.7;
+    padding: 0 1.5rem;
+  }
+
+  .container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 6rem 0 5rem;
+  }
+
+  /* Name */
+  h1 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 2.4rem;
+    color: var(--accent);
+  }
+
+  /* Prose */
+  p {
+    margin-bottom: 1.4rem;
+    font-size: 1rem;
+    color: var(--text);
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: var(--link);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s ease, color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--link-hover);
+    text-decoration-color: var(--link-hover);
+  }
+
+  /* Section dividers */
+  .section {
+    margin-top: 2.6rem;
+    padding-top: 2.6rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 1.2rem;
+  }
+
+  /* Writing list */
+  .writing-item {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .writing-item a {
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+  }
+
+  .writing-pub {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+  }
+
+  /* Contact */
+  .contact-line {
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .contact-line a {
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    html { font-size: 16px; }
+    .container { padding: 4rem 0 3.5rem; }
+    h1 { font-size: 1.8rem; }
+  }
+
+  /* Fade in */
+  .container {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Loïc Frémond</h1>
+
+    <p>I work across strategic communications, venture capital, and civic technology — usually at the point where politics, trade, and technology meet.</p>
+
+    <p>I'm a venture partner at <a href="https://verbventures.com" target="_blank">Verb Ventures</a>, an early-stage fund investing in B2B marketplaces and global trade infrastructure. I also co-founded <a href="https://dearmp.com" target="_blank">DearMP</a>, a parliamentary casework platform built to cut the email processing burden on MPs' offices in half. Before that I worked in Parliament, which is where the idea came from.</p>
+
+    <p>I write about politics, technology, and political economy for <a href="https://unherd.com" target="_blank">UnHerd</a>, and publish <a href="https://folgatesignals.substack.com" target="_blank">Folgate Signals</a>, a Substack on venture capital and politics. I'm interested in institutional design, industrial policy, and the way technology reshapes the structures people actually live inside — parliaments, supply chains, energy systems, cities.</p>
+
+    <p>I run the <a href="#">London Schvitz Club</a>, a curated sauna community for founders, investors, and people building in AI. It started as an experiment in whether you could build a better network by slowing down, and it turns out you can.</p>
+
+    <p>I'm also involved in <a href="#">Athelstan 1100</a>, a project to create a national monument to King Æthelstan — the first king of all England — to mark the 1100th anniversary of England's founding in 927. Privately funded, classically sculpted, and intended as an act of remembrance linking England's constitutional origins to the wider English-speaking world.</p>
+
+    <div class="section">
+      <div class="section-label">Selected writing</div>
+      <div class="writing-item"><a href="#">Made in Yiwu</a> <span class="writing-pub">— UnHerd</span></div>
+      <div class="writing-item"><a href="#">Placeholder title</a> <span class="writing-pub">— UnHerd</span></div>
+      <div class="writing-item"><a href="#">Placeholder title</a> <span class="writing-pub">— UnHerd</span></div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Get in touch</div>
+      <p class="contact-line"><a href="/cdn-cgi/l/email-protection#b2dad7dededdf2d7cad3dfc2ded79cd1dddf"><span class="__cf_email__" data-cfemail="dcb4b9b0b0b39cb9a4bdb1acb0b9f2bfb3b1">[email&#160;protected]</span></a></p>
+      <p class="contact-line"><a href="https://twitter.com/" target="_blank">Twitter</a></p>
